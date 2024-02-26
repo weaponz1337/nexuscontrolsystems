@@ -8,8 +8,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #444;
+            background-color: #f9f9f9;
+            color: #333;
             margin: 0;
             padding: 0;
         }
@@ -23,6 +23,7 @@
             color: #fff;
             padding: 20px 0;
             text-align: center;
+            margin-bottom: 20px;
         }
         nav ul {
             list-style-type: none;
@@ -35,15 +36,18 @@
             margin: 0 10px;
         }
         nav ul li a {
-            color: #fff;
+            color: #007bff;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #0056b3;
         }
         .services-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            margin-top: 30px;
         }
         .service-box {
             background-color: #fff;
@@ -72,9 +76,6 @@
             color: #fff;
             text-align: center;
             padding: 20px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
@@ -95,19 +96,19 @@
     <div class="services-container">
         <div class="service-box">
             <h3>PLC Programming</h3>
-            <p>Our team of experts specializes in Programmable Logic Controller (PLC) programming for various industries. We develop efficient and reliable control systems tailored to your specific requirements, ensuring seamless automation processes.</p>
+            <p>Expert PLC programming for seamless automation.</p>
         </div>
         <div class="service-box">
             <h3>HMI Development</h3>
-            <p>We create intuitive Human-Machine Interface (HMI) solutions that enhance user experience and facilitate seamless interaction with control systems. Our customized HMI development services ensure optimal visualization and control of industrial processes.</p>
+            <p>Intuitive HMI solutions for enhanced user experience.</p>
         </div>
         <div class="service-box">
             <h3>SCADA Systems</h3>
-            <p>Our Supervisory Control and Data Acquisition (SCADA) systems provide real-time monitoring, control, and data acquisition capabilities. With our comprehensive SCADA solutions, you can optimize operations, improve productivity, and enhance decision-making processes.</p>
+            <p>Real-time monitoring and control with SCADA.</p>
         </div>
         <div class="service-box">
             <h3>Custom Software</h3>
-            <p>From custom software development to integration services, we deliver tailored solutions to meet your specific automation and control requirements. Our experienced team ensures the development of robust and scalable software solutions that streamline your industrial processes and enhance efficiency.</p>
+            <p>Tailored software solutions for your automation needs.</p>
         </div>
     </div>
 </main>
